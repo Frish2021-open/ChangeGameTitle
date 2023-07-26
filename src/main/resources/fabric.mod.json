@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "bettitle",
+  "version": "1.0.0",
+  "name": "BetterFabricGameTitle",
+  "description": "This is a mod that mods the title of the game.",
+  "authors": [
+    "Frish2021"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/changegametitle"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/bettitle/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "xyz.frish2021.bettitle.BetterFabricGameTitle"
+    ]
+  },
+  "mixins": [
+    "bettitle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.19.4"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Modrinth": "https://modrinth.com/user/Frish2021-open",
+        "Sources": "https://github.com/Frish2021-open/BetterFabricGameTitle"
+      },
+      "update_checker": false
+    }
+  }
+}
